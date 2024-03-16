@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 100%;
+    max-width: 24rem;
+    border-radius: 0.75rem;
+    border: 1px solid #e2e8f0;
+}
+
+.card-content {
+    padding: 1.5rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.user-info {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    object-fit: cover;
+}
+
+.user-details {
+    display: grid;
+    gap: 0.25rem;
+}
+
+.username {
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+}
+
+.user-handle {
+    font-size: 0.875rem;
+    font-weight: medium;
+    line-height: 1;
+    margin: 0;
+}
+
+.stats {
+    display: grid;
+    gap: 1rem;
+}
+
+.stat {
+    display: grid;
+    gap: 0.25rem;
+}
+
+.stat-label {
+    font-size: 0.875rem;
+    font-weight: medium;
+    line-height: 1;
+    margin: 0;
+}
+
+.stat-value {
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+}
+
+.search-bar {
+    display: flex;
+    gap: 1rem;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid #e2e8f0;
+    outline: none;
+}
+
+.search-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+.search-button {
+    background-color: #3b82f6;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.search-button:hover {
+    background-color: #2563eb;
+}
